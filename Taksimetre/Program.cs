@@ -7,7 +7,7 @@
 
             double kmUcret = 25;
             int basUcret = 150;
-            Console.WriteLine("Taksimetre hesaplama uygulamasına hoşgeldiniz!\nLütfen Gidilen km giriniz (1 veya !.25 gibi)");
+            Console.WriteLine("Taksimetre hesaplama uygulamasına hoşgeldiniz!\nLütfen Gidilen km giriniz (1 veya 1.25 gibi)");
             
             
         başlangıç:
@@ -17,7 +17,7 @@
         tekrar:
             if (km <= 0)
             {
-                Console.WriteLine("Geçersiz km bilgisi girdiniz! Lütfen sıfırdan büyük bir sayı giriniz. (1 veya !.25 gibi)");
+                Console.WriteLine("Geçersiz km bilgisi girdiniz! Lütfen sıfırdan büyük bir sayı giriniz. (1 veya 1.25 gibi)");
                 goto başlangıç;
             }
 
